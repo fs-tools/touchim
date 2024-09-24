@@ -1,0 +1,19 @@
+betting-platform
+├── .env
+├── ormconfig.json
+├── package.json
+├── src
+│   ├── app.module.ts
+│   ├── config
+│   │   └── config.service.ts
+│   ├── database
+│   │   ├── database.module.ts
+│   │   └── database.service.ts
+│   └── sports
+│       ├── dto
+│       │   ├── create-sport.dto.ts
+│       │   └── update-sport.dto.ts
+│       ├── sports.controller.ts
+│       ├── sports.module.ts
+│       └── sports.service.ts
+└── tsconfig.json
